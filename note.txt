@@ -1,0 +1,16 @@
+document.getElementById("cont").innerHTML += `<div class='card container-item' style='width: 18rem;'>
+    <img src='https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198__340.jpg' 
+    class='card-img-top' alt='...'>  <div class='card-body'><h5 class='card-title'>${title}</h5>
+    <p class='card-text'> ${content}</p><a href='#' class='btn btn-primary'>Click Here</a>
+    <a  data-bs-toggle='collapse' href='#collapseExample${count}'  role='button' aria-expanded='false' aria-controls='collapseExample'>
+    <i class='fas fa-comment-alt' style='margin-left: 40px;'></i> 
+    </a>
+    <div class='collapse' id='collapseExample${count}'>
+      <div class='card card-body ' style='margin-top: 15px;'>
+  
+        Username : <input type="text" id="comment-user">
+         Comment : <input type="text" name="" id="comment-content">
+                    <button  onclick="comment(event)" style="margin-top: 5px;">Comment</button>
+    
+      </div>
+    </div></div></div>` ;

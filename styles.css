@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+.header1 > img
+{
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-shadow: 3px 3px 7px 2px #FF9A00;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url('https://i.pinimg.com/originals/90/88/40/908840612a991abe3cac0cc9c5458b9a.jpg');
+    height: 150px;
+    padding: 5px;
+}
+
+.header > h3
+{
+    color:#FF9A00;
+    text-decoration: wavy;
+    font-size: 45px;
+    top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 9px aqua;
+}
+.header > h3:hover
+{
+    color:blueviolet;
+    text-decoration: wavy;
+    font-size: 45px;
+    top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 9px red;
+}
+
+
+li
+{
+    display: inline;
+    padding: 5px;
+}
+li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+li a:hover
+{
+    color: blueviolet;
+    text-shadow: 2px 2px 2px aqua;
+}
+
+
+.top
+{
+    margin-top: 20px;
+    padding: auto;
+}
+
+#top-read
+{
+    background-color: #00ADB5;
+    padding: 10px;
+    border-radius: 5%;
+    margin: 0 15px;
+    transition: transform 2s;
+}
+#top-read:hover
+{
+    transform: scaleX(0.8);
+}
+
+#top-read > h3{
+    color: white;
+    text-decoration: wavy;
+    text-align: center;
+    font-size: 45px;
+    transition: transform 2s;
+}
+#top-read > h3:hover
+{
+    transform: scaleX(1.6);
+    color: #FF9A00;
+    text-shadow: 2px 2px 7px red ;
+}
+
+
+#carouselExampleCaptions
+{
+    margin-top: 20px;
+}
+
+span
+{
+    padding: 5px;
+}
+
+.carousel-inner
+{
+    margin: 10px 20px;
+    height: 30rem;
+}
+.carousel-item
+{
+    padding: 10px 20px;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+    color: white;
+
+}
+
+.carousel-item > h4
+{
+    position: absolute;
+    top : 55%;
+    left: 10%;
+    color: #FF165D;
+    font-size: 35px;
+    background: rgba(0, 0, 0,0.5);
+    padding: 15px;
+}
+.carousel-item > p
+{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 25px;
+    background: rgba(0, 0, 0,0.5);
+    padding: 15px;
+    color: #FF9A00;
+}
+
+.item-img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-content > h2
+{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card-container
+{
+    display: flex;
+    margin: 10px 40px;
+    flex-direction: column;
+    height: 1800px;
+    background-color: lightgray;
+    overflow: auto;
+}
+.container-item
+{
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.card:nth-last-child(1)
+{
+    margin-bottom: 35px;
+}
+
+.card
+{
+    border: 1px solid blueviolet;
+    border-radius: 15%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    transition: transform 2s;
+}
+
+.card:hover
+{
+    transform: scale(0.9,0.9);
+}
