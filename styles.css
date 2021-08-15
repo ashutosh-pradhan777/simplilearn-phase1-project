@@ -198,3 +198,32 @@ span
 {
     transform: scale(0.9,0.9);
 }
+
+.bottom-container
+{
+  background-color: #FF9A00;
+  opacity: 0.8;
+  padding: 50px 0 20px;
+}
+
+.bottom-container > a
+{
+  color: #11999E;
+  font-family:  'Montserrat', sans-serif;
+  margin-left: 330px;
+  
+}
+
+.bottom-container > a:hover
+{
+  color: #EAF6F6;
+}
+
+.copyright
+{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  text-align: center;
+  margin-top: 30px;
+}
+  
