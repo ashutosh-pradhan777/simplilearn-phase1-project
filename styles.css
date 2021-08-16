@@ -164,6 +164,10 @@ span
     margin-left: 30px;
     margin-bottom: 30px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 7px teal ;
+    font-weight: 500;
 }
 
 .card-container

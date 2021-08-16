@@ -1,0 +1,32 @@
+WEBSITE DESCRIPTION: Simpli-Blogs
+--------------------------------------
+
+* The website is mainly divided into 3 divs-
+    1. header
+    2. content
+    3. bottom-container/footer
+
+1. header
+-------------
+- The header contains the project title along with the company logo
+  to the left and a navbar(created using li tag) to the right.
+- The list items contain anchor tags to map different sections of
+  the webpage.
+
+2. content
+--------------
+- The content page contains 3 parts : 
+  a. The Top Reads div, b. The blog div , c. The Post div
+- The Top Reads div contains a bootstrap carousel which shows featured articles.
+- The 2nd div contains bootstrap cards to show the blog articles. 
+  Any user can comment using the comment box.
+- The 3rd div (Post) contains a form where authorized personnel can Post
+  content for the blog.
+- The posted content appears along with the other card-containers.
+
+3. footer
+------------------
+- This section contains a simple copyright tag along with the 
+  facebook, twitter and instagram handle.
+
+
